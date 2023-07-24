@@ -1,0 +1,113 @@
+:root {
+    --blue: rgb(106,130,255);
+    --danger: rgb(255,106,106);
+    --faint-blue: rgb(126,132,163);
+    --text-color: rgb(87,91,112);
+    --very-faint-blue: rgb(238,238,249);
+    --very-faint-danger: rgb(255,223,223);
+    --bg-faint: #F4F7FC;
+  }
+
+.bg-blu {
+    background-color: var(--blue);
+}
+
+.bg-faint {
+    background-color: var(--bg-faint);
+}
+
+.text-color {
+    color: var(--text-color) !important;
+  }
+  
+  .text-blue {
+    color: var(--blue);
+  }
+  
+  .text-da {
+    color: var(--danger);
+  }
+  
+  input {
+    height: 40px !important;
+  }
+  
+  .font_times {
+    font-family: 'Times New Roman', Times, serif;
+  }
+  
+  .btn-outline {
+    background-color: white;
+    border-color: var(--blue);
+    color: var(--blue);
+    /* padding: 10px 20px; */
+    border-radius: 0;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -ms-border-radius: 0;
+    -o-border-radius: 0;
+  }
+  
+  .btn-outline:hover {
+    background-color: var(--blue);
+    color:white;
+    padding: 10px 20px;
+  }
+  
+  .btn-bl {
+    background-color: var(--blue);
+    color:white !important;
+    /* padding: 10px 20px; */
+    border-radius: 0;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -ms-border-radius: 0;
+    -o-border-radius: 0;
+  }
+  
+  .btn-bl:hover {
+    background-color: white;
+    border-color: var(--blue);
+    color: var(--blue) !important;
+  }
+
+  .btn-da {
+    background-color: var(--danger);
+    color:white !important;
+    /* padding: 10px 20px; */
+    border-radius: 0;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -ms-border-radius: 0;
+    -o-border-radius: 0;
+  }
+  
+  .btn-da:hover {
+    background-color: white;
+    border-color: var(--danger);
+    color: var(--blue) !important;
+  }
+
+  .table-striped tbody tr:nth-of-type(odd) {
+      background-color: var(--bg-faint) !important;
+  }
+
+  label span.required {
+    color: var(--danger);
+  }
+  
+  .nav-link.active {
+    background-color: var(--blue) !important;
+  }
+
+  @media screen and (max-width: 576px) {
+    .modal-dialog {
+      margin-right: auto !important;
+      margin-left: auto !important;
+    }
+  }
+
+  /* .modal-dialog {
+    margin-right: auto !important;
+    margin-left: auto !important;
+  } */

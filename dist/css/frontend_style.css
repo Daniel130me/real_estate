@@ -1,0 +1,536 @@
+:root {
+  --blue: rgb(106,130,255);
+  --danger: rgb(255,106,106);
+  --faint-blue: rgb(126,132,163);
+  --text-color: rgb(87,91,112);
+  --very-faint-blue: rgb(238,238,249);
+  --very-faint-danger: rgb(255,223,223)
+}
+
+.text-color {
+  color: var(--text-color);
+}
+
+.text-blue {
+  color: var(--blue);
+}
+
+.text-danger {
+  color: var(--danger);
+}
+
+.p-120 {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  padding-right: 10px;
+}
+
+input {
+  height: 40px !important;
+}
+
+.btn-outline {
+  background-color: transparent;
+  border-color: var(--blue);
+  color: var(--blue);
+  padding: 10px 20px;
+  border-radius: 0;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  -ms-border-radius: 0;
+  -o-border-radius: 0;
+}
+
+.btn-outline:hover {
+  background-color: var(--blue);
+  color:white;
+  padding: 10px 20px;
+}
+
+.btn-bl {
+  background-color: var(--blue);
+  color:white;
+  padding: 10px 20px;
+  border-radius: 0;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  -ms-border-radius: 0;
+  -o-border-radius: 0;
+}
+
+.btn-bl:hover {
+  background-color: transparent;
+  border-color: var(--blue);
+  color: var(--blue);
+}
+
+.head_line {
+  border: 0;
+  border-top: 1px solid rgb(255 255 255 / 60%);
+  width: 40%;
+  margin-top:1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.h1_heading{
+  font-weight: bold;
+  font-size: 100px;
+  color: white;
+  text-align: center;
+}
+
+.h2_heading {
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+  line-height: 36px;
+  max-width: 900px;
+}
+
+.bg_image_header {
+  background-image: url(../img/slide-1.jpg);
+  height:100%; 
+  width:100%;
+}
+
+.heading-section {
+  height: 100vh;
+}
+
+.container.heading {
+  position: relative;
+  top: 40%;
+}
+
+.title {
+  font-family: 'Times New Roman';
+  font-size: 63px;
+  line-height: 73px;
+  color: rgba(87, 91, 112, 1);
+}
+
+.overlap_img1 {
+  width: 600px; 
+  height: 500px; 
+  object-fit: cover; 
+  box-shadow: 0 12px 54px rgba(0,0,0,.16);
+}
+
+.overlap_img2 {
+  position: absolute; 
+  width: 400px;
+  top: 39%;
+  left: 73%;
+  height: 400px; 
+  object-fit: cover; 
+  box-shadow: 0 12px 54px rgba(0,0,0,.16);
+}
+
+.short-about-text {
+  max-width: 75%;
+}
+
+.ppt_card {
+  max-width:322px;
+  background-color: white;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, .16);
+  padding: 0;
+  border-radius: 7px;
+  -webkit-border-radius: 7px;
+  -moz-border-radius: 7px;
+  -ms-border-radius: 7px;
+  -o-border-radius: 7px;
+  transition: .5s ease;
+  -webkit-transition: .5s ease;
+  -moz-transition: .5s ease;
+  -ms-transition: .5s ease;
+  -o-transition: .5s ease;
+}
+
+.ppt_card:hover {
+  box-shadow: 0 12px 54px rgba(0, 0, 0, .16);
+}
+/* .ppt_card:hover img {
+  width: 120%;
+} */
+
+.ppt_card p {
+  margin-bottom: 0;
+  font-size: 15px;
+  /* font-family: 'Times New Roman', Times, serif; */
+}
+.card_ppt_status {
+  padding: 3px 10px;
+  background-color: var(--blue);
+  margin-bottom:0 !important;
+  color: white;
+  border-radius: 30px;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  -ms-border-radius: 30px;
+  -o-border-radius: 30px;
+}
+
+.card_ppt_type {
+  padding: 3px 10px;
+  background-color: var(--danger);
+  margin-left:10px;
+  margin-bottom:0 !important;
+  color: white;
+  border-radius: 30px;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  -ms-border-radius: 30px;
+  -o-border-radius: 30px;
+}
+
+.card_ppt_location {
+  position: absolute; 
+  bottom: 10px; 
+  left: 10px; 
+  font-size: 14px;
+  font-weight: bold; 
+  color: white; 
+  margin-bottom: 0;
+  background: rgba(0,0,0,.30);
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 3px;
+}
+
+.card_ppt_title {
+  font-weight: bold;
+  color: black;
+}
+
+.card_ppt_image {
+  width: 100%;
+  height: 230px;
+  object-fit: cover;
+  border-radius: 7px 7px 0px 0px;
+  -webkit-border-radius: 7px 7px 0px 0px;
+  -moz-border-radius: 7px 7px 0px 0px;
+  -ms-border-radius: 7px 7px 0px 0px;
+  -o-border-radius: 7px 7px 0px 0px;
+}
+
+.card_ppt_price {
+  font-weight: bold;
+  color: var(--danger);
+}
+
+.card_ppt_features {
+  color: black;
+}
+
+.card_ppt_features span {
+  color: var(--blue);
+  margin-right: 20px;
+}
+
+.card_ppt_desc {
+  color: var(--faint-blue);
+  margin-top: 3px;
+  margin-bottom: 6px !important;
+}
+
+.background_for_cards{
+  background-color: rgb(238 238 249 / 40%);
+  height: 400px;
+  width: 400px;
+  position: absolute;
+  border-radius: 100%;
+  left: 20%;
+  top: 17%;
+}
+
+.buy_sell_card {
+  width: 260px;
+  padding: 20px;
+  box-shadow: 0 12px 54px rgba(0, 0, 0, .16);
+  background-color: white;
+}
+
+.buy_sell_card.position {
+  position: absolute;
+  right: 0%;
+  top: 40%;
+}
+
+.buy_sell_card_icon {
+  font-size: 30px;
+  color: var(--blue);
+  background-color: var(--very-faint-blue);
+  padding: 20px;
+}
+
+.buy_sell_card_icon.bgdanger {
+  background-color: var(--very-faint-danger);
+  color: var(--danger);
+}
+
+.buy_sell_card.testimonial {
+  box-shadow: 0 12px 54px var(--very-faint-blue);
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+.usp_class li {
+  list-style: none;
+  line-height: 40px;
+}
+.address_list_class li {
+  list-style: none;
+  line-height: 53px;
+}
+
+.underline {
+  border-top: 3px solid var(--blue);
+  width: 100px;
+  margin-left: 0;
+  margin-top: 0;
+  margin-bottom: 3px;
+}
+
+.contact_us_info_form {
+  box-shadow: 0 3px 6px rgba(0, 0, 0, .16);
+  background-color: white;
+  padding: 30px;
+}
+.contact_form_box {
+  box-shadow: 0 3px 6px rgba(0, 0, 0, .16);
+  background-color: white;
+  padding: 30px;
+}
+
+::placeholder {
+  font-size: 14px;
+}
+
+
+
+.logo_img {
+  width: 40px;
+  height: 40px;
+}
+
+.ppg_title {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 40px;
+  max-width: 85%;
+  color: var(--text-color);
+}
+.ppg_location {
+  font-weight: bold;
+}
+
+.ppg_price {
+  font-size: 40px;
+  color: var(--danger);
+}
+
+.features_details {
+  box-shadow: 0 3px 6px rgba(0, 0, 0, .16);
+  padding: 20px;
+  background-color: white;
+}
+
+.features_details p {
+  margin-bottom: 0;
+  color: var(--faint-blue);
+}
+
+.features_details p span {
+  font-weight: bold;
+}
+
+/* property page */
+.filter_lg p {
+  margin-bottom: 0;
+}
+
+.filter_title_underline {
+  margin-top: 1px;
+  border-top: 1px solid var(--blue);
+}
+
+.status_lg, .type_lg, .price_lg {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+}
+
+#status_xs, #city_xs, #price_xs, #type_xs {
+  background-color: var(--blue);
+  /* border-radius: 30px; */
+  color: white;
+  outline: none;
+  border-color: transparent;
+}
+
+@media screen and (max-width: 1370px) {
+  .buy_sell_card.position {
+    position: relative;
+    top: 0;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .container {
+    max-width: 1430px !important;
+  }
+}
+
+@media screen and (max-width:992px) {
+  .container.heading {
+    top: 32%;
+  }
+  .buy_sell_card.position {
+    position: absolute;
+    top: 40%;
+  }
+  .logo_img {
+    width: 35px;
+    height: 35px;
+  }
+}
+
+
+/* single property page */
+.mySlides img {
+  height: 500px;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Add a pointer when hovering over the thumbnail images */
+.cursor {
+  cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 20%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  background-color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Six columns side by side */
+.column {
+  float: left;
+  width: 16.66%;
+}
+
+/* Add a transparency effect for thumnbail images */
+.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+
+/* single properrty ends */
+
+@media screen and (max-width:768px) {
+  .container {
+    max-width: 700px !important;
+  }
+  .h1_heading{
+    font-size: 80px;
+  }
+  .h2_heading {
+    line-height: 30px;
+  }
+  .p-120 {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+  .short-about-text {
+    max-width: 100%;
+  }
+  .overlap_img1 {
+    width: auto;
+    height: auto;
+    max-width: 80%;
+  }
+  .overlap_img2 {
+    width: auto;
+    height: auto;
+    left: auto;
+    right: 0%;
+    max-width: 70%;
+  }
+  .ppg_title, .ppg_price {
+    font-size: 30px;
+    max-width: 100%;
+  }
+}
+
+
+@media screen and (max-width:576px) {
+  .h1_heading{
+    font-size: 60px;
+  }
+  .h2_heading {
+    font-size: 18px;
+    line-height: 30px;
+  }
+  .title {
+    font-size: 50px;
+    line-height: 55px;
+  }
+  .ppt_card {
+    max-width:95%;
+  }
+  .buy_sell_card.position {
+    position: relative;
+    float: right;
+    top: 0;
+  }
+  .background_for_cards{
+    height: 400px;
+    width: 100%;
+    left: 0%;
+  }
+  .contact_us_info_form {
+    padding: 30px 0;
+  }
+}
+
+
+
+
+
+
